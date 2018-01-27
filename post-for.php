@@ -26,9 +26,67 @@
     </div>
   </nav>
 
+<br>
+    <div class="row valign-wrapper">
+        <div class="col s6 offset-s3 valign">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Post for Adoption</span>
+             <div class="row">
+    <form class="col s12 white">
+      <div class="row">
+   
+        <div class="input-field col s5 offset-2">
+          <input name="group1" type="radio" id="test1" />
+          <label for="test1">Cat</label>
+        </div>
+         <div class="input-field col s6">
+          <input name="group1" type="radio" id="test2" />
+          <label for="test2">Dog</label>
+        </div>
+        
 
+        <div class="input-field col s8 offset-s2">
+          <input id="breed" type="text" class="validate">
+          <label for="breed">Breed</label>
+        </div>
+        <div class="input-field col s8 offset-s2">
+          <input id="loc" type="text" class="validate">
+          <label for="loc">Condition</label>
+        </div>
+        <form action="#">
+         <div class="file-field input-field col s8 offset-s2">
+      <div class="btn">
+        <span>File</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div>
+
+    </form>
+        
+        <div class="input-field col s5 offset-2">
+          <input name="group2" type="radio" id="test3" />
+          <label for="test3">For Adoption</label>
+        </div>
+         <div class="input-field col s6">
+          <input name="group2" type="radio" id="test4" />
+          <label for="test4">For Rescue</label>
+        </div>
+
+      </div>
+     
+    </form>
+  </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
     
-    
+
 <script>
   
   

@@ -44,7 +44,7 @@
     </div>
     <div class="input-field col s6">
       <input id="fname" type="text" class="validate">
-      <label class="active white-text" for="fname" style="font-size: 20px;">Password</label>
+      <label class="active white-text" for="fname" style="font-size: 20px;">First Name</label>
     </div>
     <div class="input-field col s12">
       <input id="email" type="text" class="validate">
