@@ -8,7 +8,7 @@
       <script src="materialize/js/jquery-3.3.1.min.js"></script>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Home</title>
+      <title>Post for Adoption</title>
     </head>
 
     <body>
@@ -25,35 +25,13 @@
       </ul>
     </div>
   </nav>
+
+
     
-    <br>
-    <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="photos/1.jpg"></a>
-    <a class="carousel-item" href="#two!"><img src="photos/2.jpg"></a>
-    <a class="carousel-item" href="#three!"><img src="photos/3.jpg"></a>
-  </div>
-      
-      <br>
-          
+    
 <script>
   
-  $(document).ready(function(){
-      $('.carousel').carousel();
-    });
-        
-  $('.carousel').carousel('next');
-$('.carousel').carousel('next', 1); // Move next n times.
-
-// Previous slide
-$('.carousel').carousel('prev');
-$('.carousel').carousel('prev', 2); // Move prev n times.
-
-// Set to nth slide
-$('.carousel').carousel('set', 3);
-
-// Destroy carousel
-$('.carousel').carousel('destroy');
-      
+  
 </script>
     <!--Import jQuery before materialize.js-->
     
