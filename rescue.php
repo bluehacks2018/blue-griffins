@@ -14,7 +14,7 @@
     <body>
 <nav>
     <div class="nav-wrapper blue-grey darken-1">
-      <a href="Main-Page.php" class="brand-logo">Logo</a>
+      <a href="Main-Page.php" class="brand-logo"> <img src="photos/Untitled-2.png" style="height: 100px; width: 150px;"> </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
       	<li><a href="adopt.php">Adopt a Pet</a></li>
       	<li><a href="rescue.php">Rescue Mission</a></li>

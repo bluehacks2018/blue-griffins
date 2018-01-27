@@ -14,7 +14,7 @@
     <body>
 <nav>
     <div class="nav-wrapper blue-grey darken-1">
-      <a href="Main-Page.php" class="brand-logo">Logo</a>
+      <a href="Main-Page.php" class="brand-logo"> <img src="photos/Untitled-2.png" style="height: 100px; width: 150px;"> </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
       	<li><a href="adopt.php">Adopt a Pet</a></li>
       	<li><a href="rescue.php">Rescue Mission</a></li>
@@ -28,9 +28,11 @@
     
     <br>
     <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="photos/1.jpg"></a>
-    <a class="carousel-item" href="#two!"><img src="photos/2.jpg"></a>
-    <a class="carousel-item" href="#three!"><img src="photos/3.jpg"></a>
+    <a class="carousel-item" href="#one!"><img src="photos/dog1.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="photos/dog2.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="photos/dog3.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="photos/dog4.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="photos/dog5.jpg"></a>
   </div>
       
       <br>
@@ -42,14 +44,14 @@
     });
         
   $('.carousel').carousel('next');
-$('.carousel').carousel('next', 1); // Move next n times.
+$('.carousel').carousel('next', 3); // Move next n times.
 
 // Previous slide
 $('.carousel').carousel('prev');
-$('.carousel').carousel('prev', 2); // Move prev n times.
+$('.carousel').carousel('prev', 4); // Move prev n times.
 
 // Set to nth slide
-$('.carousel').carousel('set', 3);
+$('.carousel').carousel('set', 4);
 
 // Destroy carousel
 $('.carousel').carousel('destroy');

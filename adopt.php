@@ -14,7 +14,7 @@
     <body>
  <nav class="nav-extended">
    <div class="nav-wrapper blue-grey darken-1">
-      <a href="Main-Page.php" class="brand-logo">Logo</a>
+      <a href="Main-Page.php" class="brand-logo"> <img src="photos/Untitled-2.png" style="height: 100px; width: 150px;"> </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="adopt.php" class="active">Adopt a Pet</a></li>
         <li><a href="rescue.php">Rescue Mission</a></li>
@@ -29,7 +29,7 @@
         <div class="divider"></div>
         <li class="tab"><a href="#test1">Adopt a Dog</a></li>
         <li class="tab"><a  href="#test2">Adopt a Cat</a></li>
-        <li class="tab"><a href="#test3">Adopt Mo To!</a></li>
+        <li class="tab"><a href="#test3">Rescue Mission</a></li>
       </ul>
     </div>
   </nav>

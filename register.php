@@ -5,7 +5,7 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
-
+      <script src="materialize/js/jquery-3.3.1.min.js"></script>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
      <title>Register</title>
@@ -15,7 +15,7 @@
 
 		<nav>
     <div class="nav-wrapper blue-grey darken-1">
-      <a href="Main-Page.php" class="brand-logo">Logo</a>
+      <a href="Main-Page.php" class="brand-logo"> <img src="photos/Untitled-2.png" style="height: 100px; width: 150px;"> </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="adopt.php">Adopt a Pet</a></li>
         <li><a href="rescue.php">Rescue Mission</a></li>
@@ -34,29 +34,29 @@
         <div class="col s9 offset-s2 valign">
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
-              <span class="card-title" style="font-weight: bolder; text-align: center;">Register for an account</span>
+              <span class="card-title" style="font-weight: bolder; text-align: center;"><i class="material-icons" style="font-size: 30px;">account_box</i> Register for an account</span>
               <div class="divider"></div>
                   <div class="row white-text">
                     <br>
     <div class="input-field col s6">
       <input id="lname" type="text" class="validate">
-      <label class="active white-text" for="lname" style="font-size: 20px;">Last Name</label>
+      <label class="active white-text" for="lname" style="font-size: 18px;">Last Name</label>
     </div>
     <div class="input-field col s6">
       <input id="fname" type="text" class="validate">
-      <label class="active white-text" for="fname" style="font-size: 20px;">First Name</label>
+      <label class="active white-text" for="fname" style="font-size: 18px;">First Name</label>
     </div>
     <div class="input-field col s12">
       <input id="email" type="text" class="validate">
-      <label class="active white-text" for="email" style="font-size: 20px;">Email</label>
+      <label class="active white-text" for="email" style="font-size: 18px;">Email</label>
     </div>
     <div class="input-field col s6">
       <input id="pword" type="text" class="validate">
-      <label class="active white-text" for="pword" style="font-size: 20px;">Password</label>
+      <label class="active white-text" for="pword" style="font-size: 18px;">Password</label>
     </div>
     <div class="input-field col s6">
       <input id="conpword" type="text" class="validate">
-      <label class="active white-text" for="conpword" style="font-size: 20px;">Confirm Password</label>
+      <label class="active white-text" for="conpword" style="font-size: 18px;">Confirm Password</label>
     </div>
     <div class="input-field col s8 offset-s5">
       <a class="waves-effect waves-light btn blue-grey lighten-5 blue-grey-text text-darken-1" id="register" style="font-weight: bolder;">Register</a>
