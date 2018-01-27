@@ -8,7 +8,7 @@
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-     <title>Log in</title>
+     <title>Register</title>
     </head>
 
     <body>
@@ -17,8 +17,8 @@
     <div class="nav-wrapper blue-grey darken-1">
       <a href="#" class="brand-logo">Logo</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="log-in.php">Sign in</a></li>
-        <li><a href="register.php">Register   </a></li>
+        <li><a href="Sign-in.html">Sign in</a></li>
+        <li><a href="Register.html">Register   </a></li>
         
       </ul>
     </div>
