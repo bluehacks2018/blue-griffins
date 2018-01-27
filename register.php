@@ -28,22 +28,34 @@
         <center></center>
     <div class="container">
        <div class="row valign-wrapper">
-        <div class="col s6 offset-s3 valign">
+        <div class="col s9 offset-s2 valign">
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
-              <span class="card-title" style="font-weight: bolder; text-align: center;">Welcome</span>
+              <span class="card-title" style="font-weight: bolder; text-align: center;">Register for an account</span>
               <div class="divider"></div>
                   <div class="row white-text">
                     <br>
+    <div class="input-field col s6">
+      <input id="first_name2" type="text" class="validate">
+      <label class="active white-text" for="first_name2" style="font-size: 20px;">Last Name</label>
+    </div>
+    <div class="input-field col s6">
+      <input id="first_name2" type="text" class="validate">
+      <label class="active white-text" for="first_name2" style="font-size: 20px;">Password</label>
+    </div>
     <div class="input-field col s12">
       <input id="first_name2" type="text" class="validate">
       <label class="active white-text" for="first_name2" style="font-size: 20px;">Email</label>
     </div>
-    <div class="input-field col s12">
+    <div class="input-field col s6">
       <input id="first_name2" type="text" class="validate">
       <label class="active white-text" for="first_name2" style="font-size: 20px;">Password</label>
     </div>
-    <div class="input-field col s6 offset-s4">
+    <div class="input-field col s6">
+      <input id="first_name2" type="text" class="validate">
+      <label class="active white-text" for="first_name2" style="font-size: 20px;">Confirm Password</label>
+    </div>
+    <div class="input-field col s8 offset-s5">
       <a class="waves-effect waves-light btn blue-grey lighten-5 blue-grey-text text-darken-1" style="font-weight: bolder;">Sign in</a>
     </div>
   </div>
