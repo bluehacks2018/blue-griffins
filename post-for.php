@@ -5,6 +5,9 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+       
+       <link type="text/css" rel="stylesheet" href="materialize/material-icon/material-icon.css"  media="screen,projection"/>
+      
       <script src="materialize/js/jquery-3.3.1.min.js"></script>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -14,7 +17,7 @@
     <body>
 <nav>
     <div class="nav-wrapper blue-grey darken-1">
-      <a href="Main-Page.php" class="brand-logo">Logo</a>
+      <a href="Main-Page.php" class="brand-logo"> <img src="photos/Untitled-2.png" style="height: 100px; width: 150px;"> </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
       	<li><a href="adopt.php">Adopt a Pet</a></li>
       	<li><a href="rescue.php">Rescue Mission</a></li>

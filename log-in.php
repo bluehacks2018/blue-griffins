@@ -5,7 +5,10 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
       <script src="materialize/js/jquery-3.3.1.min.js"></script>
+      <link type="text/css" rel="stylesheet" href="materialize/material-icon/material-icon.css"  media="screen,projection"/>
+
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
      <title>Log in</title>
@@ -28,7 +31,7 @@
  
 		<nav>
     <div class="nav-wrapper blue-grey darken-1">
-      <a href="Main-Page.php" class="brand-logo">Logo</a>
+      <a href="Main-Page.php" class="brand-logo"> <img src="photos/keme.png" style="height: 100px; width: 150px;"> </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="adopt.php">Adopt a Pet</a></li>
         <li><a href="rescue.php">Rescue Mission</a></li>
@@ -48,17 +51,20 @@
         <div class="col s6 offset-s3 valign">
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
-              <span class="card-title" style="font-weight: bolder; text-align: center;">Welcome</span>
+              
+              <span class="card-title" style="font-weight: bolder; text-align: center;"><i class="material-icons" style="font-size: 30px;">people</i> Welcome</span>
               <div class="divider"></div>
                   <div class="row white-text">
                     <br>
     <div class="input-field col s12">
+
       <input name="email" type="text" class="validate">
       <label class="active white-text" for="email" style="font-size: 20px;" >Email</label>
     </div>
     <div class="input-field col s12">
       <input name="pword" type="text" class="validate">
       <label class="active white-text" for="pword" style="font-size: 20px;" >Password</label>
+
     </div>
     <div class="input-field col s6 offset-s4">
       <input class="btn btn-default submit " type="submit" name="log" value="Log-in">
