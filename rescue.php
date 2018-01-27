@@ -37,24 +37,29 @@
       <div class="row">
 
         <div class="input-field col s8 offset-s2">
-          <input class="white-text" id="breed" type="text" class="validate">
-          <label for="breed">Name of Organization</label>
+          <input class="white-text" id="name-org" type="text" class="validate">
+          <label for="name-org">Name of Organization</label>
+        </div>
+        <div class="input-field col s8 offset-s2">
+          <input id="event" type="text" class="validate">
+          <label for="event">Event</label>
         </div>
         <div class="input-field col s8 offset-s2">
           <input id="loc" type="text" class="validate">
-          <label for="loc">Event</label>
+          <label for="loc">Location</label>
         </div>
         <div class="input-field col s8 offset-s2">
-          <input id="loc" type="text" class="validate">
-          <label for="loc">Number of volunteers need</label>
+          <input id="name-volun" type="text" class="validate">
+          <label for="name-volun">Number of volunteers need</label>
         </div>
+        
         <div class="input-field col s12">
           <textarea id="textarea1" class="materialize-textarea"></textarea>
           <label for="textarea1">Description</label>
         </div>
         
 <div class="input-field col s6 offset-s4">
-          <a class="waves-effect waves-light btn blue-grey lighten-5 blue-grey-text text-darken-1" id="signin" style="font-weight: bolder;">Submit</a>
+          <a class="waves-effect waves-light btn blue-grey darken-1" id="signin" style="font-weight: bolder;">Submit</a>
         </div>
       </div>
      

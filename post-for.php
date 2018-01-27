@@ -59,7 +59,7 @@
         </div>
         <form action="#">
          <div class="file-field input-field col s8 offset-s2">
-      <div class="btn">
+      <div class="btn blue-grey darken-1">
         <span>File</span>
         <input type="file">
       </div>
@@ -79,7 +79,7 @@
           <label for="test4">For Rescue</label>
         </div>
 <div class="input-field col s6 offset-s4">
-          <a class="waves-effect waves-light btn blue-grey lighten-5 blue-grey-text text-darken-1" id="signin" style="font-weight: bolder;">Submit</a>
+          <a class="waves-effect waves-light btn blue-grey darken-1" id="signin" style="font-weight: bolder;">Submit</a>
         </div>
       </div>
      
