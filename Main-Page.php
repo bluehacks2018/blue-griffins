@@ -16,8 +16,10 @@
     <div class="nav-wrapper blue-grey darken-1">
       <a href="#" class="brand-logo">Logo</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+      	<li><a href="adopt.php">Adopt a Pet</a></li>
+      	<li><a href="log-in.php">Rescue Mission</a></li>
         <li><a href="log-in.php">Sign in</a></li>
-        <li><a href="register.php">Register   </a></li>
+        <li><a href="register.php">Register</a></li>
         
       </ul>
     </div>
@@ -53,8 +55,8 @@ $('.carousel').carousel('destroy');
       
 </script>
     <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="materialize/js/app.js"></script>
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
     </body>
   </html>

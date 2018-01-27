@@ -36,15 +36,15 @@
                   <div class="row white-text">
                     <br>
     <div class="input-field col s12">
-      <input id="first_name2" type="text" class="validate">
-      <label class="active white-text" for="first_name2" style="font-size: 20px;">Email</label>
+      <input id="email" type="text" class="validate">
+      <label class="active white-text" for="email" style="font-size: 20px;">Email</label>
     </div>
     <div class="input-field col s12">
-      <input id="first_name2" type="text" class="validate">
-      <label class="active white-text" for="first_name2" style="font-size: 20px;">Password</label>
+      <input id="pword" type="text" class="validate">
+      <label class="active white-text" for="pword" style="font-size: 20px;">Password</label>
     </div>
     <div class="input-field col s6 offset-s4">
-      <a class="waves-effect waves-light btn blue-grey lighten-5 blue-grey-text text-darken-1" style="font-weight: bolder;">Sign in</a>
+      <a class="waves-effect waves-light btn blue-grey lighten-5 blue-grey-text text-darken-1" id="signin" style="font-weight: bolder;">Sign in</a>
     </div>
   </div>
             </div>
