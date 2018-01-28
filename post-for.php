@@ -15,7 +15,7 @@
     </head>
 
     <body>
-      <form  name="form1" method="post" enctype="multipart/form-data">
+      
 <nav>
     <div class="nav-wrapper blue-grey darken-1">
       <a href="Main-Page.php" class="brand-logo"> <img src="photos/Untitled-2.png" style="height: 100px; width: 150px;"> </a>
@@ -80,11 +80,10 @@
           <label for="test4">For Rescue</label>
         </div>
 <div class="input-field col s6 offset-s4">
-<<<<<<< HEAD
+
           <a class="waves-effect waves-light btn blue-grey lighten-5 blue-grey-text text-darken-1" id="signin"  name="signin" style="font-weight: bolder;">Submit</a>
-=======
-          <a class="waves-effect waves-light btn blue-grey darken-1" id="signin" style="font-weight: bolder;">Submit</a>
->>>>>>> 96ed19b8474091c4f2437f931ccfd27d91af8cc2
+
+        
         </div>
       </div>
      
@@ -103,6 +102,7 @@
   
 </script>
 
+<form  name="form1" method="post" enctype="multipart/form-data">
     Select image to upload:
     <input type="file" name="fileToUpload" id="fileToUpload">
     Animal Type<input type="text" name="dog" id="dog">
