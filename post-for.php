@@ -83,7 +83,12 @@
 
           <a class="waves-effect waves-light btn blue-grey lighten-5 blue-grey-text text-darken-1" id="signin"  name="signin" style="font-weight: bolder;">Submit</a>
 
+
         
+
+          <a class="waves-effect waves-light btn blue-grey darken-1" id="signin" style="font-weight: bolder;">Submit</a>
+
+
         </div>
       </div>
      
@@ -114,7 +119,7 @@
 
 <?php
 $target_dir = "photos/";
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+$target_file = $target_dir. basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 // Check if image file is a actual image or fake image
@@ -149,7 +154,7 @@ else{
   $sql="SELECT * FROM dogandpussy";
   $result_set=mysql_query($sql);
   
-  ?>x 
+  ?>
 
     <!--Import jQuery before materialize.js-->
     
