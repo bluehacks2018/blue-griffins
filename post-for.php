@@ -15,6 +15,7 @@
     </head>
 
     <body>
+      <form  name="form1" method="post" enctype="multipart/form-data">
 <nav>
     <div class="nav-wrapper blue-grey darken-1">
       <a href="Main-Page.php" class="brand-logo"> <img src="photos/Untitled-2.png" style="height: 100px; width: 150px;"> </a>
@@ -50,7 +51,7 @@
         
 
         <div class="input-field col s8 offset-s2">
-          <input id="breed" type="text" class="validate">
+          <input name="breed" id="breed" type="text" class="validate">
           <label for="breed">Breed</label>
         </div>
         <div class="input-field col s8 offset-s2">
@@ -61,7 +62,7 @@
          <div class="file-field input-field col s8 offset-s2">
       <div class="btn">
         <span>File</span>
-        <input type="file">
+        <input name="fileToUpload" type="file">
       </div>
       <div class="file-path-wrapper">
         <input class="file-path validate" type="text">
@@ -79,7 +80,7 @@
           <label for="test4">For Rescue</label>
         </div>
 <div class="input-field col s6 offset-s4">
-          <a class="waves-effect waves-light btn blue-grey lighten-5 blue-grey-text text-darken-1" id="signin" style="font-weight: bolder;">Submit</a>
+          <a class="waves-effect waves-light btn blue-grey lighten-5 blue-grey-text text-darken-1" id="signin"  name="signin" style="font-weight: bolder;">Submit</a>
         </div>
       </div>
      
@@ -97,6 +98,55 @@
   
   
 </script>
+
+    Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    Animal Type<input type="text" name="dog" id="dog">
+    Status<input type="text" name="status" id="status">
+    Availability<input type="text" name="availability" id="availability">
+    Location<input type="text" name="location" id="location">
+    <input type="submit" value="Upload Image" name="submit">
+</form>
+
+<?php
+$target_dir = "photos/";
+$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+$uploadOk = 1;
+$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+// Check if image file is a actual image or fake image
+if(isset($_POST["submit"])) {
+    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+
+    if($check != false) {
+        $uploadOk = 1;
+
+    } else {
+        echo "File is not an image.";
+        $uploadOk = 0;
+    }
+    if($uploadOk)
+    {
+
+}
+move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file);
+$conn=new mysqli("localhost", "root", "", "adoptors");
+$sql="INSERT INTO dogandpussy(dogcat, status, availability, location, images) values('','','','','$target_file')";
+if ($conn->query($sql)) {
+# code...
+echo "<img src='$target_file'>";
+}
+else{
+  $conn->error;
+}
+
+    }
+?> 
+<?php
+  $sql="SELECT * FROM dogandpussy";
+  $result_set=mysql_query($sql);
+  
+  ?>x 
+
     <!--Import jQuery before materialize.js-->
     
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>

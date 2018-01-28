@@ -48,7 +48,7 @@
     <div class="container">
 
        <div class="row valign-wrapper">
-        <div class="col s6 offset-s3 valign">
+        <div class="col s5 offset-s4 valign">
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
               
@@ -58,8 +58,13 @@
                     <br>
     <div class="input-field col s12">
 
+
       <input name="email" type="text" class="validate">
       <label class="active white-text" for="email" style="font-size: 20px;" >Email</label>
+
+      <input id="email" type="text" class="validate">
+      <label class="active white-text" for="email" style="fo;nt-size: 18px;">Email</label>
+
     </div>
     <div class="input-field col s12">
       <input name="pword" type="text" class="validate">

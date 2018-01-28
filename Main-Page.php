@@ -30,7 +30,11 @@
     </div>
   </nav>
     
-    <br>
+<center>
+	
+	<img src="photos/keme.png" style="height: 280px; width: 380px;">
+</center>
+          
     <div class="carousel">
     <a class="carousel-item" href="#one!"><img src="photos/dog1.jpg"></a>
     <a class="carousel-item" href="#two!"><img src="photos/dog2.jpg"></a>
@@ -39,8 +43,7 @@
     <a class="carousel-item" href="#five!"><img src="photos/dog5.jpg"></a>
   </div>
       
-      <br>
-          
+
 <script>
   
   $(document).ready(function(){

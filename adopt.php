@@ -79,54 +79,6 @@ $('.carousel').carousel('destroy');
       
 </script>
 
-<form  name="form1" method="post" enctype="multipart/form-data">
-    Select image to upload:
-    <input type="file" name="fileToUpload" id="fileToUpload">
-    <input type="text" name="dog" id="dog">
-    <input type="text" name="status" id="status">
-    <input type="text" name="availability" id="availability">
-    <input type="text" name="location" id="location">
-    <input type="submit" value="Upload Image" name="submit">
-</form>
-
-<?php
-$target_dir = "photos/";
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-$uploadOk = 1;
-$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-// Check if image file is a actual image or fake image
-if(isset($_POST["submit"])) {
-    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-
-    if($check != false) {
-        $uploadOk = 1;
-
-    } else {
-        echo "File is not an image.";
-        $uploadOk = 0;
-    }
-    if($uploadOk)
-    {
-
-}
-move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file);
-$conn=new mysqli("localhost", "root", "", "adoptors");
-$sql="INSERT INTO dogandpussy(dogcat, status, availability, location, images) values('','','','','$target_file')";
-if ($conn->query($sql)) {
-# code...
-echo "<img src='$target_file'>";
-}
-else{
-  $conn->error;
-}
-
-    }
-?> 
-<?php
-  $sql="SELECT * FROM dogandpussy";
-  $result_set=mysql_query($sql);
-  
-  ?>x 
 
     <!--Import jQuery before materialize.js-->
          <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

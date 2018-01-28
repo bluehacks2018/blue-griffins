@@ -54,7 +54,7 @@
                   <div class="row white-text">
                     <br>
     <div class="input-field col s6">
-<<<<<<< HEAD
+
       <input name="lname" type="text" class="validate">
       <label class="active white-text" for="lname" style="font-size: 20px;">Last Name</label>
     </div>
@@ -73,7 +73,7 @@
     <div class="input-field col s6">
       <input name="conpword" type="text" class="validate">
       <label class="active white-text" for="conpword" style="font-size: 20px;">Confirm Password</label>
-=======
+
       <input id="lname" type="text" class="validate">
       <label class="active white-text" for="lname" style="font-size: 18px;">Last Name</label>
     </div>
@@ -92,7 +92,7 @@
     <div class="input-field col s6">
       <input id="conpword" type="text" class="validate">
       <label class="active white-text" for="conpword" style="font-size: 18px;">Confirm Password</label>
->>>>>>> 6738d6607563088c268409696221a35258afd5c9
+
     </div>
     <div class="input-field col s8 offset-s5">
       <a class="waves-effect waves-light btn blue-grey lighten-5 blue-grey-text text-darken-1" id="puta" style="font-weight: bolder;">Register</a>
