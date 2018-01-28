@@ -63,7 +63,11 @@
       <label class="active white-text" for="email" style="font-size: 20px;" >Email</label>
 
       <input id="email" type="text" class="validate">
+
       <label class="active white-text" for="email" style="fo;nt-size: 18px;">Email</label>
+
+
+      <label class="active white-text" for="email" style="font-size: 18px;">Email</label>
 
     </div>
     <div class="input-field col s12">
